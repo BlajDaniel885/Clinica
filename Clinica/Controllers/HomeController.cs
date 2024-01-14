@@ -5,14 +5,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using System.Data.SqlClient;
+using System.Web.Http;
 
 namespace Clinica.Controllers
 {
-    public class FirstController : Controller
+    public class HomeController : Controller
     {
         private readonly IConfiguration configuration;
         
-        public FirstController(IConfiguration config)
+        public HomeController(IConfiguration config)
         {
             this.configuration = config;
         }
