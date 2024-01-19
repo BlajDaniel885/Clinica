@@ -1,0 +1,61 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('fundal_login.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.forgotpassword {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0,0.5);
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(239, 224, 224);
+}
+
+.lblemail, .lblnewpass, .lblconpass {
+    font-weight: bold;
+    color: rgb(239, 224, 224);
+}
+
+.txtemail, .txtnewpass, .txtconpass, .btnsubmit {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.txtemail, .txtnewpass, .txtconpass {
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+}
+
+.btnsubmit {
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    color: rgb(239, 224, 224);
+    background-color: rgb(52, 48, 48);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit:hover {
+        background-color: rgb(176, 173, 173);
+    }
