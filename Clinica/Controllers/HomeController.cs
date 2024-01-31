@@ -76,7 +76,7 @@ namespace Clinica.Controllers
         // TODO:apoi trebuie facut apel catre tabela inter-user-rol si tabela rol ca sa aduci rolurile utilizatorului ca string aka "admin"/ "doctor"/ "pacient" (nu id : 1,2,3)
         // TODO:hint: iti trebuie un ViewModel (adica o clasa noua) care sa contina tot ce contine clasa de user si in plus va avea si o lista de string-uri pt roluri.    
         // TODO:clasa de LoginViewModel sau UserViewModel sau LoginVM prescurtat, trebuie pusa intr-un Folder separat numit ViewModels, la fel ca Views, Controllers, Properties.
-
+        // TODO: sterge rolId din tabela user
         // TODO:Muta tot ce tine de login, auth in controllerul de Account
 
         // TODO:Authorizare pe baza de cookies
