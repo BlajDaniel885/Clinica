@@ -33,13 +33,15 @@ namespace Clinica.Controllers
             connection.Close();
             return View("Index");
         }
-/*
+
+        [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
-*/
-        public async Task<IActionResult> Login(string txtUserName, string txtPassword)
+
+        [HttpPost]
+        public async Task<IActionResult> Authenticate(string txtUserName, string txtPassword)
         {
             if((txtUserName.ToLower()=="admin") && (txtPassword == "123"))
             {
